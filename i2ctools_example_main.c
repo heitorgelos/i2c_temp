@@ -1,10 +1,3 @@
-/*
-Na comunicação i2c definida em um esp pelo esp idf 
-é dividida nos seguintes passos básicos: 
-
-
-*/
-
 #include <stdio.h>
 #include "esp_err.h"
 #include "driver/i2c.h"
@@ -84,3 +77,4 @@ void app_main(void)
 
     }
 }
+
